@@ -1,0 +1,221 @@
+body{
+    margin: 0;
+}
+
+footer{
+    background-color: aqua;
+    height: auto;
+    margin: 0;
+    background-color: #e4f9f5;
+}
+
+h2{
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    font-weight: normal;
+    color: rgb(186, 186, 214);
+}
+
+h3{
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    color: rgb(186, 186, 214);
+    margin-top: 0;
+}
+
+p{
+    text-align: center;
+    font-family: "Merriweather", serif;
+    line-height: 2;
+}
+
+.top-container{
+    background-color: #e4f9f5;
+    height: auto;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    position: relative;
+    
+}
+
+.image-container{
+    
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.title-text{
+    font-family: "Pattaya", serif;
+    font-weight: 100;
+    font-size: 4rem;
+    margin-top: 200px;
+    color: rgb(186, 186, 214);
+}
+
+.description-text{
+    font-size: 2rem;
+    font-family: "Merriweather", serif;
+    font-style: normal;
+    font-weight: 400;
+    color: rgb(186, 186, 214);
+}
+
+.island{
+    height: 300px;
+    width: 500px;
+}
+
+.birds{
+    position: absolute;
+    right: 100px;
+}
+
+.mid-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.profile{
+    width: 200px;
+    height: 200px;
+    margin-top: 100px
+   
+}
+
+.intro{
+    width: 50%;
+    text-align: center;
+    font-family: "Merriweather", serif;
+    line-height: 2;
+    
+}
+
+.hello{
+    text-align: center;
+}
+
+.skills{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    gap: 50px;
+    
+    text-align: left;
+    height: auto;
+}
+
+.design{
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+}
+
+.image {
+    width: 300px;
+    height: 200px;
+}
+
+.design-text{
+    text-align: left;
+}
+
+
+.work-experience{
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+}
+
+.sushi{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+
+.bottom-container{
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    width: 200px;
+    height: 30px;
+    background-color: rgb(205, 179, 228);
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    height: 100px;
+}
+
+#trademark{
+    font-size: 10px;
+}
+
+.bottom-h2{
+    text-align: center;
+}
+
+@media (max-width: 1280px)
+{
+    .skills
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        
+    }
+
+    .design-text{
+        text-align: center;
+        
+    }
+
+    .design{
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+    }
+
+    .work-experience{
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+    }
+    
+    .sushi{
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+    }
+   
+    
+
+
+    
+}
